@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    background-color: rgb(249, 249, 249);
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+main {
+    background-color: rgb(249, 249, 249);
+    padding-top: 20px;
+}
+
+span {
+    font-family: 'Material Icons';
+    font-size: 1.7rem;
+    margin: 10px;
+    color: gray;
+    vertical-align: middle;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    height: 2rem;
+    width: 4rem;
+    border: 1px solid lightgray;
+}
+
+button>span {
+    font-family: 'Material Icons';
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+section>span {
+    font-size: 1rem;
+}
+
+
+/* header */
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+
+.bar-left {
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+}
+
+.bar-center {
+    display: flex;
+    width: 65%;
+}
+
+.logo {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#search {
+    height: 1.75rem;
+    width: 60%;
+    margin-right: 0;
+    background-color: transparent;
+    border: 1px solid lightgray
+}
+
+.search-icon {
+    margin: 0;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.mic-icon {
+    margin: 0 15px;
+}
+
+.person-icon {
+    vertical-align: top;
+}
+
+
+/* content */
+
+main {
+    margin-left: 25px;
+}
+
+section {
+    position: absolute;
+    width: 62.5%;
+}
+
+iframe {
+    margin-bottom: 10px;
+}
+
+.tags {
+    text-decoration: none;
+    color: #065fd4;
+    font-size: 0.8rem;
+    line-height: 0;
+}
+
+.title {
+    display: block;
+    line-height: 0;
+    font-size: 1.2rem;
+}
+
+.views {
+    position: relative;
+    left: 0;
+}
+
+.menu {
+    position: relative;
+    margin-left: 190px;
+}
+
+.menu::before {
+    content: " ";
+    width: 180px;
+    position: absolute;
+    left: 7px;
+    bottom: -1px;
+    height: 3px;
+    box-shadow: 0 7px 0 gray;
+}
+
+.stats {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    font-size: 1rem;
+    color: gray;
+    border-bottom: 1px solid rgb(144, 144, 144);
+}
+
+.likes-icon,
+.more-icon {
+    margin: 0 10px;
+    font-size: 1.3rem;
+}
+
+.share-icon {
+    margin: 0 10px;
+    font-size: 1.4rem;
+}
+
+.add-icon {
+    font-size: 1.5rem;
+}
+
+
+/* Description */
+
+.description {
+    margin-top: 80px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(144, 144, 144);
+}
+
+.channel-icon {
+    border-radius: 50%;
+    width: 6%;
+    margin-right: 5px;
+}
+
+.channel-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+.subs {
+    font-style: normal;
+    color: gray;
+    font-size: 12px;
+}
+
+.music-icon {
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+}
+
+.subscribe {
+    float: right;
+    font-weight: 500;
+    font-size: 14px;
+    font: inherit;
+    text-transform: uppercase;
+    width: 15%;
+    background-color: #c00;
+    padding: 12px 20px 30px 20px;
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+.subscribe:hover {
+    cursor: pointer;
+}
+
+.description-content {
+    margin-left: 65px;
+    font-size: 0.9rem;
+}
+
+.show-more {
+    color: #606060;
+}
+
+
+/* comment section */
+
+.comments {
+    margin-top: 20px;
+}
+
+
+/* Thumbnails */
+
+aside {
+    float: right;
+    position: relative;
+}
